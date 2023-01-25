@@ -16,7 +16,7 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 
 - I also added unit test cases to ensure that the existing functionality is not broken and the refactored code is working as expected. The test cases cover the all possible scenarios of the function.
 
-  ✓ should return trivial partition key if event is not passed (1 ms)
-  ✓ should return partitionKey if it is present in event
-  ✓ should return digest of event if partitionKey is not present in event (1 ms)
-  ✓ should return digest of partitionKey if its length is greater than max partition key length
+  - ✓ should return trivial partition key if event is not passed (1 ms)
+  - ✓ should return partitionKey if it is present in event
+  - ✓ should return digest of event if partitionKey is not present in event (1 ms)
+  - ✓ should return digest of partitionKey if its length is greater than max partition key length
